@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #f4f4f9;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    color: #00aaff;
+}
+
+.profile-pic img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.contact-info,
+.education,
+.skills,
+.languages {
+    margin-bottom: 20px;
+}
+
+.contact-info a,
+.contact-info p {
+    color: white;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+header {
+    border-bottom: 2px solid #003366;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    padding-left:40px ;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #003366;
+}
+
+header h2 {
+    font-size: 24px;
+    color: #00aaff;
+}
+
+.profile,
+.certifications {
+    margin-bottom: 20px;
+}
+
+.experience {
+    margin-bottom: 20px;
+}
+
+.experience h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job {
+    margin-bottom: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #00aaff;
+    position: relative;
+    border-bottom: 2px solid #00aaff;
+}
+
+.job::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #00aaff;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+    top: 0;
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-header h3 {
+    font-size: 20px;
+    color: #003366;
+    margin: 0;
+}
+
+.job-dates {
+    font-size: 14px;
+    color: #666;
+}
+
+.job p {
+    font-size: 14px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #666;
+}
+
+.job h3 {
+    font-size: 20px;
+    color: #003366;
+}
+
+.job p {
+    font-size: 14px;
+    color: #666;
+}
+
+.job ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.certifications ul {
+    list-style-type: none;
+}
+
+.certifications li {
+    margin-bottom: 10px;
+}

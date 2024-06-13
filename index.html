@@ -4,150 +4,126 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maylcon Ramirez - Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/CV_MaylconV2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Maylcon Ramirez</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
-                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1>Maylcon Ramirez</h1>
-            <p class="lead">Microservices Architecture Expert | .NET & Java Developer</p>
-        </div>
-    </header>
-
-    <!-- About Me -->
-    <section id="about" class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="img/profile.jpeg" alt="Profile Picture" class="img-fluid rounded-circle ">
-                </div>
-                <div class="col-md-8">
-                    <h2>About Me</h2>
-                    <p>Passionate about technology and programming, specializing in Microservices Architecture with over 9 years of experience in .NET and Java development. Proficient in SQL databases, particularly RDS. Familiar with Angular for frontend design, with a solid understanding. Experienced in effectively leading teams. Currently expanding knowledge through AWS courses focused on cloud computing architectures.</p>
-                </div>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="profile-pic">
+                <img src="img/perfil3.jpeg" alt="Maylcon Ramirez">
             </div>
-        </div>
-    </section>
-
-    <!-- Experience -->
-    <section id="experience" class="bg-light py-5">
-        <div class="container">
-            <h2>Work Experience</h2>
-            <div class="timeline">
-                <!-- Job 1 -->
-                <div class="timeline-item">
-                    <h3>Software Developer (.NET Core, Angular) - Agencia Nacional Digital (AND)</h3>
-                    <p>January 2022 - December 2022</p>
-                    <p>Development and maintenance of citizen folder project. Development of digital signature project. Programming technologies: .Net Core, Entity Framework, Angular, Git, Microservices architecture, Docker.</p>
-                </div>
-                <!-- Job 2 -->
-                <div class="timeline-item">
-                    <h3>Technical Leader / Developer (Java, .NET Core, Angular, Azure) - ITO Software</h3>
-                    <p>March 2020 - February 2022</p>
-                    <p>Researcher developer in SSO (WSO2, Keycloak). Implement Microservices architecture (Java). Technical leader of the MinTic project. Programming technologies: .Net Core, Entity Framework, Angular, Git, Microservices architecture, Docker, Keycloak, WSO2, SQL Server.</p>
-                </div>
-                <!-- More Jobs... -->
+            <div class="contact-info">
+                <h2>Contact</h2>
+                <p><i class="fas fa-phone-alt"></i> +57 314 448 7118</p>
+                <p><i class="fas fa-envelope"></i> sanson.saray@gmail.com</p>
+                <p><i class="fas fa-globe"></i> <a href="https://maylcon.github.io/">https://maylcon.github.io/</a></p>
+                <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/maylcon/?locale=en_US">Maylcon's LinkedIn</a></p>
+                <p><i class="fas fa-download"></i> <a href="cv/resume.pdf">Download Resume</a></p>
             </div>
-        </div>
-    </section>
-
-    <!-- Projects -->
-    <section id="projects" class="py-5">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h3 class="card-title">Citizen Folder Project</h3>
-                            <p class="card-text">Development and maintenance of a digital folder for citizens. Technologies: .Net Core, Angular.</p>
-                        </div>
+            
+            <div class="education">
+                <h2>Education</h2>
+                <p>2019</p>
+                <p>Universidad de los Llanos</p>
+                <p>Specialist in Software Development</p>
+                <p>2014</p>
+                <p>Universidad de los Llanos</p>
+                <p>Software Engineer</p>
+            </div>
+            <div class="skills">
+                <h2>Technical Skills</h2>
+                    <li>Java (Spring Boot)</li>
+                    <li>NET 8</li>
+                    <li>Angular 9+</li>
+                    <li>SQL (Oracle, SQL Server)</li>
+                    <li>AWS (Lambda, DynamoDB, S3 Buckets)</li>
+                    <li>Docker</li>
+                    <li>Git and Git-Flow</li>
+            </div>
+            <div class="languages">
+                <h2>Languages</h2>
+                <p>Spanish (Native speaker)</p>
+                <p>English</p>
+            </div>
+        </aside>
+        <main class="main-content">
+            <header>
+                <h1>Maylcon Ramirez</h1>
+                <h2>Senior Backend Developer</h2>
+                <p>Microservices Architecture | .NET & Java Development</p>
+            </header>
+            <section class="profile">
+                <h2>About me</h2>
+                <p>A highly skilled Systems Engineer with over 9 years of experience in software development, specialising in Microservices Architecture, .NET, and Java. Proficient in leading teams and projects efficiently, continually seeking to improve and learn new cloud technologies.</p>
+            </section>
+            <section class="experience">
+                <h2>Professional Experience</h2>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Technical Leader / Software Developer</h3>
+                        <span class="job-dates">April 2021 - May 2024</span>
                     </div>
+                    <p><strong>Technologies:</strong> Java, Angular, SQL</p>
+                    <p><strong>Company:</strong> Colombian Institute for Educational Evaluation (ICFES)</p>
+                    <ul>
+                        <li>Led the special projects team.</li>
+                        <li>Frontend and backend development for PLEXI and EXA projects.</li>
+                    </ul>
                 </div>
-                <div class="col-md-6">
-                    <div class="card mb-4">
-                        <div class="card-body">
-                            <h3 class="card-title">Digital Signature Project</h3>
-                            <p class="card-text">Development of a digital signature application. Technologies: .Net Core, Angular.</p>
-                        </div>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Technical Leader / Developer</h3>
+                        <span class="job-dates">March 2020 - February 2022</span>
                     </div>
+                    <p><strong>Technologies:</strong> Java, .NET Core, Angular, Azure</p>
+                    <p><strong>Company:</strong> ITO Software</p>
+                    <ul>
+                        <li>Research and development in SSO (WSO2, Keycloak).</li>
+                        <li>Implemented Microservices architecture (Java).</li>
+                        <li>Technical leader of the MinTic project.</li>
+                    </ul>
                 </div>
-                <!-- More Projects... -->
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="bg-light py-5">
-        <div class="container">
-            <h2>Skills</h2>
-            <ul>
-                <li>Microservices Architecture</li>
-                <li>Java (Spring Boot)</li>
-                <li>.Net Core</li>
-                <li>Angular 9+</li>
-                <li>SQL (Oracle, SQL Server)</li>
-                <li>Git and Git-Flow</li>
-                <li>AWS (Lambda, DynamoDB, Buckets)</li>
-            </ul>
-        </div>
-    </section>
-	
-	    <!-- Certifications -->
-    <section id="Certifications" class="bg-light py-5">
-        <div class="container">
-            <h2>Certifications</h2>
-            <ul>
-                <li>Scrum.org: <a href="https://www.scrum.org/user/871131" target="_blank">Maylcon's Scrum.org</a></li>
-                <li>Scrum Institute: <a href="https://www.scrum-institute.org/badges/09512880961410" target="_blank">Maylcon's Scrum Institute</a></li>
-                <li>Bayswater: <a href="https://www.bayswater.ac/destination/liverpool" target="_blank">Maylcon's Bayswater</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="py-5">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:sanson.saray@gmail.com">sanson.saray@gmail.com</a></p>
-            <p>Phone: +57 3144487118</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/maylcon/?locale=en_US" target="_blank">Maylcon's LinkedIn</a></p>
-            <!-- Uncomment to add certification logos
-            <p><img src="img/certification_logo.png" alt="Certification Logo" class="img-fluid"></p>
-            -->
-            <!-- Uncomment to add WhatsApp logo
-            <p><img src="img/whatsapp_logo.png" alt="WhatsApp Logo" class="img-fluid"></p>
-            -->
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center py-3">
-        <div class="container">
-            <p>&copy; 2024 Maylcon Ramirez. All Rights Reserved.</p>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Software Developer</h3>
+                        <span class="job-dates">January 2022 - December 2022</span>
+                    </div>
+                    <p><strong>Technologies:</strong> .NET Core, Angular</p>
+                    <p><strong>Company:</strong> National Digital Agency (AND)</p>
+                    <ul>
+                        <li>Developed and maintained the citizen folder project, enhancing digital accessibility for over 100,000 citizens.</li>
+                        <li>Developed a digital signature application, reducing document processing time by 30%.</li>
+                    </ul>
+                </div>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Software Developer</h3>
+                        <span class="job-dates">November 2018 - March 2020</span>
+                    </div>
+                    <p><strong>Technologies:</strong> .NET Core, Angular</p>
+                    <p><strong>Company:</strong> Everis Colombia</p>
+                </div>
+                <div class="job">
+                    <div class="job-header">
+                        <h3>Software Developer</h3>
+                        <span class="job-dates">May 2015 - November 2018</span>
+                    </div>
+                    <p><strong>Technologies:</strong> .NET, Oracle</p>
+                    <p><strong>Company:</strong> CODALTEC - ParqueSoft</p>
+                </div>
+            </section>
+            
+            <section class="certifications">
+                <h2>Certifications</h2>
+                <ul>
+                    <li>Professional Scrum Master I | Maylcon's Scrum.org</li>
+                    <li>Scrum Developer | Maylcon's Scrum Institute</li>
+                    <li>Professional English | Maylcon's Bayswater</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
