@@ -36,16 +36,16 @@
       "Spanish (Native speaker)",
       "English"
     ],
-    "profile": "A highly skilled Systems Engineer with over 9 years of experience in software development, specialising in Microservices Architecture, .NET, and Java. Proficient in leading teams and projects efficiently, continually seeking to improve and learn new cloud technologies.",
+    "profile": "Highly qualified Software Engineering Specialist with over 9 years of experience in software development, participating in more than 4 high-impact national projects. Possess strong skills in implementing scalable Microservices Architecture, supporting over 50,000 concurrent users, and expertise in .NET and Java. Competent in efficiently leading development teams. Continuously updating my knowledge of new technologies by participating in conferences and reading specialized articles.",
     "experience": [
       {
         "title": "Technical Leader / Software Developer",
         "dates": "2022 - 2024",
         "company": "ICFES",
-        "technologies": "Java, Angular, SQL",
+        "technologies": "Java, Angular, SQL, AWS",
         "responsibilities": [
-          "Led the special projects team.",
-          "Frontend and backend development for PLEXI and EXA projects."
+          "Led a team of 10 developers in implementing lambda functions for national tests with a concurrency of 50,000 users.",
+          "Designed and established a microservices architecture, buckets, and RabbitMQ for generating over 15 million reports nationwide."
         ]
       },
       {
@@ -54,46 +54,39 @@
         "company": "ITO Software",
         "technologies": "Java, .NET Core, Angular, Azure",
         "responsibilities": [
-          "Research and development in SSO (WSO2, Keycloak).",
-          "Implemented Microservices architecture (Java).",
-          "Technical leader of the MinTic project."
+          "Implemented Keycloak in the Corabastos application, significantly improving system authentication and increasing security.",
+          "Implemented Kubernetes and Docker in the Assa Abloy project, achieving optimal scalability and improving application deployment efficiency.",
+          "Technical Leader of the MinTIC project, leading a team of 8 people and achieving 100% delivery of user stories, which allowed us to meet deadlines and satisfy client expectations."
         ]
       },
       {
         "title": "Software Developer",
         "dates": "2018 - 2020",
         "company": "Everis Colombia",
-        "technologies": ".NET, Angular",
-        "responsibilities": [
-          "Led the special projects team.",
-          "Frontend and backend development for PLEXI and EXA projects."
-        ]
+        "technologies": ".NET Framework, Razor, Sql Server",
+        "responsibilities": []
       },
       {
         "title": "Software Developer",
         "dates": "2015 - 2018",
         "company": "CODALTEC - Parquesoft",
-        "technologies": ".NET, Oracle",
-        "responsibilities": [
-          "Led the special projects team.",
-          "Frontend and backend development for PLEXI and EXA projects."
-        ]
+        "technologies": ".NET Framework, Razor, Oracle",
+        "responsibilities": []
       },
       {
         "title": "Software Developer",
         "dates": "Independiente",
         "company": "National Digital Agency",
-        "technologies": ".NET, Angular",
+        "technologies": ".NET Core, Angular, AWS",
         "responsibilities": [
-          "Led the special projects team.",
-          "Frontend and backend development for PLEXI and EXA projects."
+          "Developed and maintained the Citizen Folder project, implementing digital accessibility for minors, which resulted in an increase of over 100,000 users."
         ]
       }
       
     ],
     "certifications": {
-      "ProfessionalScrum": "https://www.scrum-institute.org/badges/09512880961410",
-      "ScrumDeveloper": "https://www.scrum.org/user/871131",
+      "ProfessionalScrum": "https://www.scrum.org/user/871131",
+      "ScrumDeveloper": "https://www.scrum-institute.org/badges/09512880961410",
       "English": "https://drive.google.com/file/d/1hAutd5da-qojpQziIBXxzNkBMzvoMNra/view?usp=drive_link"
     }
     
