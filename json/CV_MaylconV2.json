@@ -1,0 +1,102 @@
+{
+    "header": {
+      "name": "Maylcon Ramirez",
+      "title": "Senior Backend Developer",
+      "description": "Microservices Architecture | .NET & Java Development"
+    },
+    "contact": {
+      "phone": "+57 314 448 7118",
+      "email": "sanson.saray@gmail.com",
+      "website": "https://maylcon.github.io/",
+      "linkedin": "https://www.linkedin.com/in/maylcon/?locale=en_US",
+      "resume": "resume.pdf"
+    },
+    "education": [
+      {
+        "year": "2019",
+        "institution": "Universidad de los Llanos",
+        "degree": "Specialist in Software Development"
+      },
+      {
+        "year": "2014",
+        "institution": "Universidad de los Llanos",
+        "degree": "Software Engineer"
+      }
+    ],
+    "skills": [
+      "Java (Spring Boot)",
+      ".NET",
+      "Angular 9+",
+      "SQL (Oracle, SQL Server)",
+      "AWS (Lambda, DynamoDB, S3 Buckets)",
+      "Docker",
+      "Git and Git-Flow"
+    ],
+    "languages": [
+      "Spanish (Native speaker)",
+      "English"
+    ],
+    "profile": "A highly skilled Systems Engineer with over 9 years of experience in software development, specialising in Microservices Architecture, .NET, and Java. Proficient in leading teams and projects efficiently, continually seeking to improve and learn new cloud technologies.",
+    "experience": [
+      {
+        "title": "Technical Leader / Software Developer",
+        "dates": "2022 - 2024",
+        "company": "ICFES",
+        "technologies": "Java, Angular, SQL",
+        "responsibilities": [
+          "Led the special projects team.",
+          "Frontend and backend development for PLEXI and EXA projects."
+        ]
+      },
+      {
+        "title": "Technical Leader / Developer",
+        "dates": "2020 - 2022",
+        "company": "ITO Software",
+        "technologies": "Java, .NET Core, Angular, Azure",
+        "responsibilities": [
+          "Research and development in SSO (WSO2, Keycloak).",
+          "Implemented Microservices architecture (Java).",
+          "Technical leader of the MinTic project."
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "dates": "2018 - 2020",
+        "company": "Everis Colombia",
+        "technologies": ".NET, Angular",
+        "responsibilities": [
+          "Led the special projects team.",
+          "Frontend and backend development for PLEXI and EXA projects."
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "dates": "2015 - 2018",
+        "company": "CODALTEC - Parquesoft",
+        "technologies": ".NET, Oracle",
+        "responsibilities": [
+          "Led the special projects team.",
+          "Frontend and backend development for PLEXI and EXA projects."
+        ]
+      },
+      {
+        "title": "Software Developer",
+        "dates": "Independiente",
+        "company": "National Digital Agency",
+        "technologies": ".NET, Angular",
+        "responsibilities": [
+          "Led the special projects team.",
+          "Frontend and backend development for PLEXI and EXA projects."
+        ]
+      }
+      
+    ],
+    "certifications": {
+      "ProfessionalScrum": "https://www.scrum-institute.org/badges/09512880961410",
+      "ScrumDeveloper": "https://www.scrum.org/user/871131",
+      "English": "https://drive.google.com/file/d/1hAutd5da-qojpQziIBXxzNkBMzvoMNra/view?usp=drive_link"
+    }
+    
+    
+  }
+  

@@ -1,3 +1,4 @@
+/* CSS general que ya tienes */
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +12,7 @@ body {
     background-color: #f4f4f9;
     padding: 20px;
     line-height: 1.6;
+    min-height: 100vh; /* Ajuste para ocupar toda la pantalla */
 }
 
 .container {
@@ -19,7 +21,8 @@ body {
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+    flex-direction: row;
+    min-height: 100vh; /* Ajuste para ocupar toda la pantalla */
 }
 
 .sidebar {
@@ -61,39 +64,31 @@ body {
     padding: 20px;
 }
 
-header {
+.main-content header {
     border-bottom: 2px solid #003366;
     margin-bottom: 20px;
-    padding-bottom: 40px;
-    padding-left:40px ;
+    padding-bottom: 20px;
 }
 
-header h1 {
+.main-content header h1 {
     font-size: 36px;
     color: #003366;
 }
 
-header h2 {
+.main-content header h2 {
     font-size: 24px;
     color: #00aaff;
 }
 
 .profile,
+.experience,
 .certifications {
-    margin-bottom: 20px;
-}
-
-.experience {
-    margin-bottom: 20px;
-}
-
-.experience h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .job {
     margin-bottom: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     border-left: 2px solid #00aaff;
     position: relative;
@@ -128,37 +123,102 @@ header h2 {
     color: #666;
 }
 
-.job p {
+.job p, .job ul, .job li {
     font-size: 14px;
     color: #666;
-    margin: 5px 0;
-}
-
-.job ul {
-    list-style-type: disc;
-    margin-left: 20px;
-    color: #666;
-}
-
-.job h3 {
-    font-size: 20px;
-    color: #003366;
-}
-
-.job p {
-    font-size: 14px;
-    color: #666;
-}
-
-.job ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-
-.certifications ul {
-    list-style-type: none;
-}
-
-.certifications li {
     margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.certifications a,
+.certifications p {
+    color: white;
+}
+
+/* Estilos para la versión web */
+@media (min-width: 769px) {
+    .container {
+        flex-direction: row; /* Mantiene las dos columnas */
+        min-height: 100vh; /* Ajuste para ocupar toda la pantalla */
+    }
+
+    .sidebar {
+        order: 0;
+        width: 300px;
+        text-align: left; /* Alinea el texto a la izquierda */
+        padding: 20px;
+    }
+
+    .main-content {
+        order: 1;
+        flex: 1;
+        padding: 20px;
+    }
+
+    .main-content header {
+        display: block; /* Asegura que el header esté visible */
+        order: 0; /* Asegura que el header esté en la parte superior del main-content */
+        width: 100%; /* Asegura que el header tome todo el ancho del main-content */
+    }
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Cambia la dirección del flex a columna en pantallas pequeñas */
+        min-height: auto; /* Ajuste para permitir que el contenido crezca */
+    }
+
+    header {
+        order: 1; /* Mueve el header al principio */
+        text-align: center; /* Centra el texto del header en pantallas pequeñas */
+        padding: 0px;
+    }
+
+    .main-content {
+        order: 3; /* Mueve el main-content después del sidebar */
+        padding: 10px;
+    }
+
+    .sidebar {
+        order: 2; /* Mueve la sidebar después del header */
+        width: 100%;
+        text-align: center; /* Centra el texto en pantallas pequeñas */
+    }
+
+    .sidebar p {
+        text-align: left; /* Alinea el texto a la izquierda */
+        padding-left: 70px;
+    }
+
+    .skills li {
+        text-align: left; /* Alinea el texto a la izquierda */
+        padding-left: 70px;
+    }
+
+    .profile-pic img {
+        width: 50%; /* Reduce el tamaño de la imagen a la mitad */
+        margin: 0 auto; /* Centra la imagen */
+    }
+
+    .job-header {
+        flex-direction: column; /* Cambia la dirección del flex a columna en la cabecera del trabajo */
+        align-items: flex-start;
+    }
+
+    .job-dates {
+        margin-top: 5px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    .certifications h2 {
+        text-align: center;
+    }
 }
